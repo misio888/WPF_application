@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid  Background="#49243E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133.333"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Foreground="#FFD8BFB6" Grid.Column="2" Content="Nadpisz :" Grid.ColumnSpan="2" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
+        <Label Grid.Row="5" Foreground="#FFD8BFB6" Grid.Column="0" Content="Zdjęcie: " FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="3" Foreground="#FFD8BFB6" Grid.Column="0" Content="Cena: " FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="1" Foreground="#FFD8BFB6" Grid.Column="0" Content="Nazwa: " FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="2" Foreground="#FFD8BFB6" Grid.Column="0" Content="Ilość: " FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <TextBox Name="txtName" Grid.Row="1" Grid.Column="1" Margin="14" Grid.ColumnSpan="3"/>
+        <TextBox Name="txtCountry" Grid.Row="2" Grid.Column="1" Margin="14" Grid.ColumnSpan="3"/>
+        <TextBox Name="txtDescription" Grid.Row="3" Grid.Column="1" Margin="14" Grid.ColumnSpan="3"/>
+        <Button Name="btnUploadPhot" Grid.Row="5" Grid.Column="1"  Content="Wczytaj zdjęcie" Margin="20" Click="BtnUploadPhoto_Click"/>
+
+        <Button Name="btnSav" Grid.Row="1" Grid.Column="5" Content="Zapisz" Margin="20" Click="BtnSave_Click1"/>
+        <Button Name="btnClose" Grid.Row="2" Grid.Column="5" Content="Zamknij" Margin="20" Click="btnClose_Click"/>
+    </Grid>
+</Window>

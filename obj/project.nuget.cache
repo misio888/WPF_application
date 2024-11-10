@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "SMrl+adzwVtx3a57/8X8kxdcR6asM7wx/t1EBnJ7u5by/uWclqbnWQygT4vZOdqZ9p0h8GLzh5iV66d4JaWrUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Misio\\Desktop\\WPF by mikolaj sadlo\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Misio\\.nuget\\packages\\microsoft.data.sqlite\\8.0.3\\microsoft.data.sqlite.8.0.3.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.3\\microsoft.data.sqlite.core.8.0.3.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Misio\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
